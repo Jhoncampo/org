@@ -35,4 +35,8 @@
         padding: 15px;
         font-size: 15px;
     }
+    .campo-color input{
+        height: 40px;
+        padding: 5px 20px;
+    }
 }
