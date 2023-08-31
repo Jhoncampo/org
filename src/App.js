@@ -9,7 +9,7 @@ import Footer from './componets/Footer';
 
 
 function App() {
-  const [mostrarFormulario, actualizarMostrar]   = useState(false)
+  const [mostrarFormulario, actualizarMostrar]   = useState(true)
   const [colaboradores, actualizarColaboradores] = useState([
     {
       id: uuid(),
@@ -45,10 +45,10 @@ function App() {
     },
     {
       id: uuid(),
-      equipo: "Innovación y Gestión",
-      foto: "https://github.com/JoseDarioGonzalezCha.png",
-      nombre: "Jose Gonzalez",
-      puesto: "FullStack",
+      equipo: "Móvil",
+      foto: "https://www.github.com/Jhoncampo.png",
+      nombre: "Jhon Eduard Campo",
+      puesto: "Desarrollo",
       fav: false
     },
   ])

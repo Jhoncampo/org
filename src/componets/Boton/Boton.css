@@ -17,3 +17,11 @@
 .boton button:hover{
     color: #95FFD4;
 }
+
+@media (min-width: 360px) and (max-width:768px){
+    .boton button{
+        padding: 15px 35px;
+        margin: 32px 0;
+        font-size: 18px;
+    }
+} 

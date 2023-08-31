@@ -16,4 +16,37 @@
     font-size: 32px;
     font-weight: 400;
     color: #212121;
+}
+@media (min-width: 360px) and (max-width:768px){
+    .formulario{
+        display: block;
+        justify-content: space-evenly;
+        margin: 80px 15px;
+    }
+    .formulario form{
+        padding: 8px 25px;
+        margin-bottom: 20px;
+    }
+    .formulario h2{
+        font-size: 28px;
+        font-weight: 400;
+    }
 } 
+@media (min-width: 769px) and (max-width:1024px){
+    .formulario{
+        display: block;
+        margin: 80px 50px;
+    }
+    .formulario form{
+        padding: 8px 80px;
+    }
+} 
+@media (min-width: 1025px){
+    .formulario{
+        display: flex;
+        margin: 80px 50px;
+    }
+    .formulario form{
+        padding: 8px 30px;
+    }
+}

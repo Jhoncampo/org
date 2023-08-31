@@ -15,8 +15,8 @@ const Footer = () =>{
                 <img src="/img/instagram.png" alt="isntagram" />
             </a>
         </div>
-        <img src="/img/logo.png" alt="" />
-        <strong>Desarrollado por Jhon</strong>
+        <img src="/img/logo.png" alt=""className='img-logo' />
+        <strong className='copyright'>Desarrollado por Jhon</strong>
     </footer>
 }
 

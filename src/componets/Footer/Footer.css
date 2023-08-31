@@ -15,3 +15,18 @@
 .redes img{
     padding: 0px 15px;
 }
+
+@media (min-width: 360px) and (max-width:768px){
+    .footer{
+        padding: 5% 2%;
+    }
+    .redes img{
+        padding: 0px 8px;
+    }
+    .footer .img-logo{
+        width: 10%;
+    }
+    .footer .copyright{
+        font-size: 14px;
+    }
+} 

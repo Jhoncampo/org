@@ -16,3 +16,14 @@
 .org-section img{
     cursor: pointer;
 }
+
+@media (min-width: 360px) and (max-width:480px){
+    .title{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .org-section img{
+        width: 20%;
+    }
+
+} 

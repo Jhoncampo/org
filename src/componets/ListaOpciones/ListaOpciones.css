@@ -18,3 +18,13 @@
 .lista-opciones select option{
     padding: 28px;
 }
+
+@media (min-width: 360px) and (max-width: 768px){
+    .lista-opciones label{
+        font-size: 16px;
+    }
+    .lista-opciones select{
+        padding: 15px;
+        font-size: 15px;
+    }
+}
